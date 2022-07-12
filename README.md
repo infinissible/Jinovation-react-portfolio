@@ -10,6 +10,10 @@ A portfolio built as a single-page applications by using React.js. This portfoli
 - Node.js
 - React.js
 
+## Deployed application
+
+https://infinissible.github.io/Jinovation-react-portfolio/
+
 ## Installation
 
 `npm init`
