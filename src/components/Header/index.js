@@ -3,8 +3,8 @@ import Nav from '../Navigation';
 
 function Header() {
   return (
-    <header className="flex-row px-1 space-between my-5 mx-5">
-      <h2>
+    <header className="shadow-bottom flex-row space-between pb-30 p-50">
+      <h1>
         <a className="align-center" href="/">
           <img
             alt="svgImg"
@@ -12,7 +12,7 @@ function Header() {
           />
           <span className="ml-5">Jinovation</span>
         </a>
-      </h2>
+      </h1>
       <Nav />
     </header>
   );
