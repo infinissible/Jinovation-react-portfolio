@@ -1,5 +1,4 @@
 import React from 'react';
-import resume from '../../assets/pdf/Resume_2022_Web developer.pdf';
 import { FiDownload } from 'react-icons/fi';
 
 function Resume() {
@@ -26,13 +25,18 @@ function Resume() {
           Download Resume
           <a
             className="mx-1"
-            href="../../assets/pdf/Resume_2022_Web developer.pdf"
+            href="https://docs.google.com/document/d/1FrEuFi7v861jyVep3Bl1EtRdDeRQxbtLwGofATDTDyo/export?format=pdf"
             download
           >
             <FiDownload />
           </a>
         </h5>
-        <iframe src={resume} width="100%" height="1200px" title="resume" />
+        <iframe
+          width="100%"
+          height="1200px"
+          title="resume"
+          src="https://docs.google.com/document/d/e/2PACX-1vSChwRmoonzqFCf_rl5eJ8csrLkxBin9uxTM4orHbdNBrYxZgn6Txm3AVkqRlli9H158SIAWt_Ma7DT/pub?embedded=true"
+        />
       </div>
     </section>
   );
