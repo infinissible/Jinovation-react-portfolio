@@ -8,13 +8,13 @@ function Nav() {
           <a href="/Jinovation-react-portfolio">About Me</a>
         </li>
         <li className="mx-2">
-          <a href="/Jinovation-react-portfolio/project">Project</a>
+          <a href="/Jinovation-react-portfolio/#/project">Project</a>
         </li>
         <li className="mx-2">
-          <a href="/Jinovation-react-portfolio/contact">Contact</a>
+          <a href="/Jinovation-react-portfolio/#/contact">Contact</a>
         </li>
         <li className="mx-2">
-          <a href="/Jinovation-react-portfolio/resume">Resume</a>
+          <a href="/Jinovation-react-portfolio/#/resume">Resume</a>
         </li>
       </ul>
     </nav>
