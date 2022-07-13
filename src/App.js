@@ -16,15 +16,15 @@ function App() {
           <Routes>
             <Route path="/Jinovation-react-portfolio/" element={<About />} />
             <Route
-              path="/Jinovation-react-portfolio/project"
+              path="/Jinovation-react-portfolio/#/project"
               element={<Project />}
             />
             <Route
-              path="/Jinovation-react-portfolio/contact"
+              path="/Jinovation-react-portfolio/#/contact"
               element={<ContactForm />}
             />
             <Route
-              path="/Jinovation-react-portfolio/resume"
+              path="/Jinovation-react-portfolio/#/resume"
               element={<Resume />}
             />
           </Routes>
