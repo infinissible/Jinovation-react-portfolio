@@ -1,24 +1,23 @@
 {
   "files": {
     "main.css": "/Jinovation-react-portfolio/static/css/main.3874c0c6.css",
-    "main.js": "/Jinovation-react-portfolio/static/js/main.cc9c933e.js",
+    "main.js": "/Jinovation-react-portfolio/static/js/main.0822858d.js",
     "static/js/787.5683a694.chunk.js": "/Jinovation-react-portfolio/static/js/787.5683a694.chunk.js",
     "static/media/jin.png": "/Jinovation-react-portfolio/static/media/jin.8b7c925c5e6f7b6e55b4.png",
     "static/media/5.jpg": "/Jinovation-react-portfolio/static/media/5.987f4dcfd16d004b6ce5.jpg",
     "static/media/0.jpg": "/Jinovation-react-portfolio/static/media/0.453a4678b52d2e71727a.jpg",
     "static/media/6.jpg": "/Jinovation-react-portfolio/static/media/6.7b5e82fba01d10520bba.jpg",
     "static/media/4.jpg": "/Jinovation-react-portfolio/static/media/4.02cb3425de4bc0d63511.jpg",
-    "static/media/Resume_2022_Web developer.pdf": "/Jinovation-react-portfolio/static/media/Resume_2022_Web developer.c4596f855870bce80418.pdf",
     "static/media/2.jpg": "/Jinovation-react-portfolio/static/media/2.10990ceafd1558034011.jpg",
     "static/media/3.jpg": "/Jinovation-react-portfolio/static/media/3.e9aff827e818301f5236.jpg",
     "static/media/1.jpg": "/Jinovation-react-portfolio/static/media/1.aa25cbf89939def02f6b.jpg",
     "index.html": "/Jinovation-react-portfolio/index.html",
     "main.3874c0c6.css.map": "/Jinovation-react-portfolio/static/css/main.3874c0c6.css.map",
-    "main.cc9c933e.js.map": "/Jinovation-react-portfolio/static/js/main.cc9c933e.js.map",
+    "main.0822858d.js.map": "/Jinovation-react-portfolio/static/js/main.0822858d.js.map",
     "787.5683a694.chunk.js.map": "/Jinovation-react-portfolio/static/js/787.5683a694.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3874c0c6.css",
-    "static/js/main.cc9c933e.js"
+    "static/js/main.0822858d.js"
   ]
 }
