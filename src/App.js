@@ -14,10 +14,19 @@ function App() {
       <Router>
         <main>
           <Routes>
-            <Route path="/" element={<About />} />
-            <Route path="/project" element={<Project />} />
-            <Route path="/contact" element={<ContactForm />} />
-            <Route path="/resume" element={<Resume />} />
+            <Route path="/Jinovation-react-portfolio/" element={<About />} />
+            <Route
+              path="/Jinovation-react-portfolio/project"
+              element={<Project />}
+            />
+            <Route
+              path="/Jinovation-react-portfolio/contact"
+              element={<ContactForm />}
+            />
+            <Route
+              path="/Jinovation-react-portfolio/resume"
+              element={<Resume />}
+            />
           </Routes>
         </main>
       </Router>

@@ -5,16 +5,16 @@ function Nav() {
     <nav>
       <ul className="flex-row">
         <li className="mx-2">
-          <a href="/">About Me</a>
+          <a href="/Jinovation-react-portfolio">About Me</a>
         </li>
         <li className="mx-2">
-          <a href="/project">Project</a>
+          <a href="/Jinovation-react-portfolio/project">Project</a>
         </li>
         <li className="mx-2">
-          <a href="/contact">Contact</a>
+          <a href="/Jinovation-react-portfolio/contact">Contact</a>
         </li>
         <li className="mx-2">
-          <a href="/resume">Resume</a>
+          <a href="/Jinovation-react-portfolio/resume">Resume</a>
         </li>
       </ul>
     </nav>
