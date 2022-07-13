@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Nav() {
   return [
-    <Link to="/">
+    <Link key="banner" to="/">
       <h1>
         <div className="align-center">
           <img
@@ -14,19 +14,27 @@ function Nav() {
         </div>
       </h1>
     </Link>,
-    <nav>
+    <nav key="nav">
       <ul className="flex-row">
         <Link to="/">
-          <li className="mx-2">About Me</li>
+          <li key="About Me" className="mx-2">
+            About Me
+          </li>
         </Link>
         <Link to="/project">
-          <li className="mx-2">Project</li>
+          <li key="Project" className="mx-2">
+            Project
+          </li>
         </Link>
         <Link to="/contact">
-          <li className="mx-2">Contact</li>
+          <li key="Contact" className="mx-2">
+            Contact
+          </li>
         </Link>
         <Link to="resume">
-          <li className="mx-2">Resume</li>
+          <li key="Resume" className="mx-2">
+            Resume
+          </li>
         </Link>
       </ul>
     </nav>,
