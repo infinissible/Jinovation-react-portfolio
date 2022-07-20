@@ -1,5 +1,6 @@
 import React from 'react';
 import { FiDownload } from 'react-icons/fi';
+import resume from '../../assets/pdf/resume.pdf';
 
 function Resume() {
   return (
@@ -32,10 +33,11 @@ function Resume() {
           </a>
         </h5>
         <iframe
+          id="gframe"
           width="100%"
           height="1200px"
           title="resume"
-          src="https://docs.google.com/document/d/e/2PACX-1vSChwRmoonzqFCf_rl5eJ8csrLkxBin9uxTM4orHbdNBrYxZgn6Txm3AVkqRlli9H158SIAWt_Ma7DT/pub?embedded=true"
+          src={resume}
         />
       </div>
     </section>

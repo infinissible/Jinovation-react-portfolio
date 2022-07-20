@@ -7,7 +7,6 @@ function Nav() {
   function handleClick(e) {
     setNavList(e.target.innerHTML);
   }
-  console.log(navList);
 
   return [
     <Link key="banner" to="/">
