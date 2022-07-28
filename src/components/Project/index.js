@@ -5,6 +5,16 @@ import { FiMonitor } from 'react-icons/fi';
 function Project() {
   const [projects] = useState([
     {
+      name: 'Freelancr',
+      description:
+        'A MERN stack single-page application, which is a platform that provides employers with information about freelancers to hire',
+      skills:
+        'MongoDB, Mongoose, Express.js, React.js, Node.js, GraphQL, Heroku',
+      appLink: 'https://gig-freelancr.herokuapp.com/',
+      repoLink: 'https://github.com/Callank21/Freelancing-Gig-App.git',
+      number: 7,
+    },
+    {
       name: 'SELF-MANAGEMENT-APP',
       description:
         'A full stack application that manages time efficient by creating projects and associated tasks',
