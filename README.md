@@ -27,3 +27,12 @@ https://infinissible.github.io/Jinovation-react-portfolio/
 ## Screenshot
 
 <img src='./src/assets/picture/main-page.jpg'>
+
+## Questions
+
+Find me on GitHub
+infinissible
+repo: https://github.com/infinissible
+
+Email me with any questions
+infinissible@gmail.com
