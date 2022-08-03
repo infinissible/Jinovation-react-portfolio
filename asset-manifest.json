@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Jinovation-react-portfolio/static/css/main.3874c0c6.css",
-    "main.js": "/Jinovation-react-portfolio/static/js/main.6ac51b0c.js",
+    "main.css": "/Jinovation-react-portfolio/static/css/main.78f88340.css",
+    "main.js": "/Jinovation-react-portfolio/static/js/main.4da3b99b.js",
     "static/js/787.5683a694.chunk.js": "/Jinovation-react-portfolio/static/js/787.5683a694.chunk.js",
     "static/media/jin.png": "/Jinovation-react-portfolio/static/media/jin.8b7c925c5e6f7b6e55b4.png",
     "static/media/7.jpg": "/Jinovation-react-portfolio/static/media/7.92b235e0c360efbec3d9.jpg",
@@ -14,12 +14,12 @@
     "static/media/3.jpg": "/Jinovation-react-portfolio/static/media/3.e9aff827e818301f5236.jpg",
     "static/media/1.jpg": "/Jinovation-react-portfolio/static/media/1.aa25cbf89939def02f6b.jpg",
     "index.html": "/Jinovation-react-portfolio/index.html",
-    "main.3874c0c6.css.map": "/Jinovation-react-portfolio/static/css/main.3874c0c6.css.map",
-    "main.6ac51b0c.js.map": "/Jinovation-react-portfolio/static/js/main.6ac51b0c.js.map",
+    "main.78f88340.css.map": "/Jinovation-react-portfolio/static/css/main.78f88340.css.map",
+    "main.4da3b99b.js.map": "/Jinovation-react-portfolio/static/js/main.4da3b99b.js.map",
     "787.5683a694.chunk.js.map": "/Jinovation-react-portfolio/static/js/787.5683a694.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3874c0c6.css",
-    "static/js/main.6ac51b0c.js"
+    "static/css/main.78f88340.css",
+    "static/js/main.4da3b99b.js"
   ]
 }
