@@ -10,7 +10,7 @@ const Footer = () => {
           </a>
         </div>
         <div>
-          <a href="https://github.com/infinissible?tab=repositories">
+          <a href="https://github.com/infinissible">
             <div className="icons8-github"></div>
           </a>
         </div>
