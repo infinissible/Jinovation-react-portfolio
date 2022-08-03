@@ -1,6 +1,5 @@
 main {
   margin: 0 auto;
-  max-width: 90%;
   padding: 50px 30px;
 }
 :root {
@@ -95,6 +94,9 @@ a:hover {
 
 header {
   background: var(--dark);
+  padding-bottom: 30px;
+  padding: 50px;
+  justify-content: space-between;
 }
 
 header a {
@@ -176,7 +178,7 @@ textarea {
 .about {
   display: flex;
   flex-wrap: wrap;
-  width: 1024px;
+  width: min(100% - 2rem, 1024px);
 }
 
 .profile-card {
@@ -189,6 +191,7 @@ textarea {
 
 .profile-img {
   border-radius: 50%;
+  margin-inline: 10px;
   width: 250px;
   height: 250px;
   object-fit: cover;
@@ -209,7 +212,7 @@ textarea {
 
 .project img {
   height: 350px;
-  width: 550px;
+  width: 100%;
   position: relative;
 }
 
@@ -217,7 +220,7 @@ textarea {
   position: absolute;
   color: rgba(26, 82, 116, 1);
   height: 350px;
-  width: 550px;
+  width: 100%;
   padding: 50px;
   opacity: 0;
 }
@@ -235,7 +238,7 @@ textarea {
   position: absolute;
   color: rgba(26, 82, 116, 1);
   height: 350px;
-  width: 550px;
+  width: 100%;
   padding: 50px;
   background: rgb(255, 252, 252, 0.8);
   opacity: 1;
@@ -245,6 +248,7 @@ textarea {
 .relative {
   position: relative;
   display: flex;
+  width: min(450px, 550px);
   margin: 20px 20px 100px 20px;
   box-shadow: 1px 1px 0.5rem rgba(0, 0, 0, 0.7);
 }
@@ -291,8 +295,7 @@ textarea {
 }
 
 .mx-auto {
-  margin-left: auto;
-  margin-right: auto;
+  margin-inline: auto;
 }
 
 .mx-1 {
@@ -481,7 +484,97 @@ a {
     50% 50% no-repeat;
   background-size: 100%;
 }
-/* 
-iframe #document html body > div {
-  margin: 0 auto;
-} */
+
+@media screen and (max-width: 980px) {
+  header {
+    padding: 10px;
+    justify-content: center;
+  }
+
+  .w-100 {
+    width: 100%;
+  }
+
+  header h1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  main {
+    padding: 0px;
+    padding-top: 10px;
+  }
+
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    width: min(100% - 1rem, 980px);
+  }
+
+  .relative {
+    margin-bottom: 20px;
+  }
+
+  .profile-img {
+    width: 250px;
+    margin-inline: 10px;
+  }
+
+  .profile-text {
+    width: min(100% - 3rem, 980px);
+    margin-inline: auto;
+  }
+
+  .footer {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .profile-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .my-auto {
+    margin-top: 15px;
+  }
+
+  .w-40 {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    width: min(100% - 1rem, 768px);
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .w-40 {
+    width: 80%;
+  }
+
+  .my-5 {
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
+  .profile-text {
+    margin-top: 5px;
+  }
+
+  ul {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .profile-img {
+    margin-inline: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
