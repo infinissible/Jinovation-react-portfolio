@@ -548,6 +548,10 @@ a {
   .w-40 {
     width: 60%;
   }
+
+  .w-50 {
+    width: 70%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -582,11 +586,49 @@ a {
     margin-right: auto;
   }
 
+  .project {
+    padding-top: 0px;
+  }
+
+  .project img {
+    height: 250px;
+  }
+
+  .project-label {
+    height: 250px;
+  }
+
+  .project-label:hover {
+    height: 250px;
+    padding: 20px;
+  }
+
+  .profile-text {
+    padding: 10px;
+    width: 100%;
+  }
+
   .w-40 {
     width: 60%;
   }
 
+  .w-50 {
+    width: 80%;
+  }
+
   h2 {
     font-size: 1.8rem;
+  }
+
+  p {
+    line-height: 1.5rem;
+  }
+
+  .p-40 {
+    padding: 10px;
+  }
+
+  iframe {
+    height: 700px;
   }
 }

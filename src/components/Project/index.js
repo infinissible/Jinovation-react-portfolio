@@ -91,7 +91,6 @@ function Project() {
             />
             <div key={project.name} className="project-label">
               <h2>{project.name}</h2>
-              <br />
               <p>{project.skills}</p>
               <a className="link" href={project.appLink}>
                 <FiMonitor />
