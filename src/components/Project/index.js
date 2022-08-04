@@ -27,7 +27,7 @@ function Project() {
       name: 'GAME DATABASE',
       description:
         'Game platform that allows users to search a game title and provide details',
-      skills: 'HTML, CSS, JavaScript',
+      skills: 'HTML, CSS, JavaScript, Tawilwind, jQuery',
       appLink: 'https://uhmammoth.github.io/GamePlatforms/',
       repoLink: 'https://github.com/uhMammoth/GamePlatforms',
       number: 5,
@@ -36,7 +36,7 @@ function Project() {
       name: 'Weather Dashboard',
       description:
         'A web application that offers a weather forecast in the city searched',
-      skills: 'Server-side APIs',
+      skills: 'Server-side APIs, HTML, CSS, JavaScript',
       appLink: 'https://infinissible.github.io/Smart-weather-dashboard/',
       repoLink: 'https://github.com/infinissible/Smart-weather-dashboard',
       number: 4,
@@ -44,7 +44,7 @@ function Project() {
     {
       name: 'Work Day Scheduler',
       description: 'A web application that manages work day schedules',
-      skills: 'Third-Party APIs',
+      skills: 'Third-Party APIs, HTML, CSS, JavaScript, jQuery',
       appLink: 'https://infinissible.github.io/Amazing-work-day-scheduler/',
       repoLink: 'https://github.com/infinissible/Amazing-work-day-scheduler',
       number: 3,
@@ -52,7 +52,7 @@ function Project() {
     {
       name: 'Quizmaker',
       description: 'A web application that creates a quizmaker',
-      skills: 'Web APIs',
+      skills: 'Web APIs, HTML, CSS, JavaScript',
       appLink: 'https://infinissible.github.io/Quizmaker/',
       repoLink: 'https://github.com/infinissible/Quizmaker',
       number: 2,
@@ -61,7 +61,7 @@ function Project() {
       name: 'Password Generator',
       description:
         'A web application that generates a password by selected conditions',
-      skills: 'JavaScript',
+      skills: 'HTML, CSS, JavaScript',
       appLink: 'https://infinissible.github.io/Ch03-Passwordgenerator/',
       repoLink: 'https://github.com/infinissible/Ch03-Passwordgenerator',
       number: 1,

@@ -617,11 +617,13 @@ a {
   }
 
   h2 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
   }
 
   p {
     line-height: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .p-40 {
