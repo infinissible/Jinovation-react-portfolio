@@ -5,7 +5,7 @@ import { FiMonitor } from 'react-icons/fi';
 function Project() {
   const [projects] = useState([
     {
-      name: 'Freelancr',
+      name: 'Python-newsfeed',
       description:
         'A website where users can post, upvote, and comment on links to news articles. This website is built with Python, Flask, SQLAlchemy, Jinja2, PyMySQL, and Javascript, and deployed to heroku',
       skills:
