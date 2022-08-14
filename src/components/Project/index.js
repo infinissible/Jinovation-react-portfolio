@@ -7,9 +7,9 @@ function Project() {
     {
       name: 'Freelancr',
       description:
-        'A MERN stack single-page application, which is a platform that provides employers with information about freelancers to hire',
+        'A website where users can post, upvote, and comment on links to news articles. This website is built with Python, Flask, SQLAlchemy, Jinja2, PyMySQL, and Javascript, and deployed to heroku',
       skills:
-        'MongoDB, Mongoose, Express.js, React.js, Node.js, GraphQL, Heroku',
+        'Python, Flask, SQLAlchemy, Jinja2, PyMySQL, Gunicorn, bcrypt, dotenv, Heroku',
       appLink: 'https://python-news-fd.herokuapp.com/',
       repoLink: 'https://github.com/infinissible/python-newsfeed',
       number: 8,
