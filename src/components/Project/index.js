@@ -10,6 +10,16 @@ function Project() {
         'A MERN stack single-page application, which is a platform that provides employers with information about freelancers to hire',
       skills:
         'MongoDB, Mongoose, Express.js, React.js, Node.js, GraphQL, Heroku',
+      appLink: 'https://python-news-fd.herokuapp.com/',
+      repoLink: 'https://github.com/infinissible/python-newsfeed',
+      number: 8,
+    },
+    {
+      name: 'Freelancr',
+      description:
+        'A MERN stack single-page application, which is a platform that provides employers with information about freelancers to hire',
+      skills:
+        'MongoDB, Mongoose, Express.js, React.js, Node.js, GraphQL, Heroku',
       appLink: 'https://gig-freelancr.herokuapp.com/',
       repoLink: 'https://github.com/Callank21/Freelancing-Gig-App.git',
       number: 7,
@@ -77,26 +87,26 @@ function Project() {
   ]);
 
   return (
-    <div className="mx-auto">
-      <div className="my-1 mx-auto w-50 text-center">
-        <h2 className="shadow">PROJECT</h2>
+    <div className='mx-auto'>
+      <div className='my-1 mx-auto w-50 text-center'>
+        <h2 className='shadow'>PROJECT</h2>
       </div>
-      <div className="project flex-row">
+      <div className='project flex-row'>
         {projects.map((project) => (
-          <div key={project.skills} className="relative">
+          <div key={project.skills} className='relative'>
             <img
               src={require(`../../assets/project/${project.number}.jpg`)}
               key={project.number}
               alt={project.description}
             />
-            <div key={project.name} className="project-label">
+            <div key={project.name} className='project-label'>
               <h2>{project.name}</h2>
               <p>{project.skills}</p>
-              <a className="link" href={project.appLink}>
+              <a className='link' href={project.appLink}>
                 <FiMonitor />
               </a>
               &nbsp;&nbsp;
-              <a className="link" href={project.repoLink}>
+              <a className='link' href={project.repoLink}>
                 <GoMarkGithub />
               </a>
             </div>
