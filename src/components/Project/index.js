@@ -5,6 +5,16 @@ import { FiMonitor } from 'react-icons/fi';
 function Project() {
   const [projects] = useState([
     {
+      name: 'My-wedding-invitation',
+      description:
+        'A personal wedding invitation as a single-page application built with Reac.js. It is designed for the mobile-friendly interface including a photo gallery with react-responsive-carousel, an API of NAVER MAP',
+      skills:
+        'JavaScript, React.js, Node.js, react-responsive-carousel, NAVER Map API, gh-pages',
+      appLink: 'https://infinissible.github.io/my-wedding-invitation/',
+      repoLink: 'https://github.com/infinissible/my-wedding-invitation',
+      number: 9,
+    },
+    {
       name: 'Python-newsfeed',
       description:
         'A website where users can post, upvote, and comment on links to news articles. This website is built with Python, Flask, SQLAlchemy, Jinja2, PyMySQL, and Javascript, and deployed to heroku',
@@ -93,7 +103,7 @@ function Project() {
       </div>
       <div className='project flex-row'>
         {projects.map((project) => (
-          <div key={project.skills} className='relative'>
+          <div key={project.skills} id={project.number} className='relative'>
             <img
               src={require(`../../assets/project/${project.number}.jpg`)}
               key={project.number}
