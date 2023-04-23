@@ -14,16 +14,15 @@ function Resume() {
           <h5>
             HTML, CSS (Bootstrap, TailwindCSS), JavaScript, React.js, IndexedDB,
             jQuery, Progressive Web Application (PWAs), Jest, Webpack, JSON Web
-            Token (JWT), Object-Relational Mapping (ORM), Object-Oriented
-            Programming (OOP), Heroku
+            Token (JWT)
           </h5>
         </div>
         <div className='p-40'>
           <h4 className='mb-15 bold'>Back-end experience</h4>
           <h5>
-            Node.js, Express.js, MySQL, PyMySQL, Flask, Sequelize, SQLAlchemy,
-            NoSQL (MongoDB, Mongoose), GraphQL, API's (third-party, server-side,
-            RESTful), Templating (Handlebars, Jinja2)
+            Node.js, Express.js, MySQL,Sequelize, NoSQL (MongoDB, Mongoose),
+            GraphQL, API's (third-party, server-side, RESTful),
+            Object-Relational Mapping (ORM), Object-Oriented Programming (OOP)
           </h5>
         </div>
         <h5>

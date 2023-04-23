@@ -14,35 +14,35 @@ function Project() {
       repoLink: 'https://github.com/infinissible/my-wedding-invitation',
       number: 9,
     },
-    {
-      name: 'Python-newsfeed',
-      description:
-        'A website where users can post, upvote, and comment on links to news articles. This website is built with Python, Flask, SQLAlchemy, Jinja2, PyMySQL, and Javascript, and deployed to heroku',
-      skills:
-        'Python, Flask, SQLAlchemy, Jinja2, PyMySQL, Gunicorn, bcrypt, dotenv, Heroku',
-      appLink: 'https://python-news-fd.herokuapp.com/',
-      repoLink: 'https://github.com/infinissible/python-newsfeed',
-      number: 8,
-    },
+    // {
+    //   name: 'Python-newsfeed',
+    //   description:
+    //     'A website where users can post, upvote, and comment on links to news articles. This website is built with Python, Flask, SQLAlchemy, Jinja2, PyMySQL, and Javascript, and deployed to heroku',
+    //   skills:
+    //     'Python, Flask, SQLAlchemy, Jinja2, PyMySQL, Gunicorn, bcrypt, dotenv, Heroku',
+    //   appLink: 'https://python-news-fd.herokuapp.com/',
+    //   repoLink: 'https://github.com/infinissible/python-newsfeed',
+    //   number: 8,
+    // },
     {
       name: 'Freelancr',
       description:
         'A MERN stack single-page application, which is a platform that provides employers with information about freelancers to hire',
       skills:
         'MongoDB, Mongoose, Express.js, React.js, Node.js, GraphQL, Heroku',
-      appLink: 'https://gig-freelancr.herokuapp.com/',
-      repoLink: 'https://github.com/Callank21/Freelancing-Gig-App.git',
+      appLink: 'https://freelancr-gig.onrender.com',
+      repoLink: 'https://github.com/infinissible/freelancr-gig',
       number: 7,
     },
-    {
-      name: 'SELF-MANAGEMENT-APP',
-      description:
-        'A full stack application that manages time efficient by creating projects and associated tasks',
-      skills: 'MySQL, Node.js, Express.js, Handlebars, Heroku',
-      appLink: 'https://self-management-app.herokuapp.com/',
-      repoLink: 'https://github.com/Callank21/Self-Management-App',
-      number: 6,
-    },
+    // {
+    //   name: 'SELF-MANAGEMENT-APP',
+    //   description:
+    //     'A full stack application that manages time efficient by creating projects and associated tasks',
+    //   skills: 'MySQL, Node.js, Express.js, Handlebars, Heroku',
+    //   appLink: 'https://self-management-app.herokuapp.com/',
+    //   repoLink: 'https://github.com/Callank21/Self-Management-App',
+    //   number: 6,
+    // },
     {
       name: 'GAME DATABASE',
       description:
