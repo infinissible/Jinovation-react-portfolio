@@ -9,7 +9,7 @@ function Resume() {
         <h2 className='shadow'>RESUME</h2>
       </div>
       <div className='mx-auto w-90 text-center'>
-        <div className='pb-30 p-40'>
+        {/* <div className='pb-30 p-40'>
           <h4 className='mb-15 bold'>Front-end experience</h4>
           <h5>
             HTML, CSS (Bootstrap, TailwindCSS), JavaScript, React.js, IndexedDB,
@@ -24,14 +24,10 @@ function Resume() {
             GraphQL, API's (third-party, server-side, RESTful),
             Object-Relational Mapping (ORM), Object-Oriented Programming (OOP)
           </h5>
-        </div>
+        </div> */}
         <h5>
           Download Resume
-          <a
-            className='mx-1'
-            href='https://docs.google.com/document/d/1FrEuFi7v861jyVep3Bl1EtRdDeRQxbtLwGofATDTDyo/export?format=pdf'
-            download
-          >
+          <a className='mx-1' href={resume} download='SEUNGJIN LEE_Full Stack'>
             <FiDownload />
           </a>
         </h5>
